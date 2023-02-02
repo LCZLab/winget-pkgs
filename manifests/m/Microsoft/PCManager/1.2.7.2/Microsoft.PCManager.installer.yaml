@@ -1,0 +1,26 @@
+# Created with YamlCreate.ps1 v2.2.2 $debug=NVS1.CRLF.5-1-22621-1037.Win32NT
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: Microsoft.PCManager
+PackageVersion: 1.2.7.2
+InstallerType: nullsoft
+Scope: machine
+InstallModes:
+- silent
+InstallerSwitches:
+  Silent: -activateapp=false
+InstallerSuccessCodes:
+- "2"
+UpgradeBehavior: install
+ReleaseDate: 2023-02-06
+Installers:
+- InstallerLocale: en-US
+  Architecture: x64
+  InstallerUrl: https://pcmanager.officeplus.cn/mvp/30101/25250/MSPCManagerOffline.exe?sv=2021-06-08&se=2023-06-25T07%3A02%3A50Z&sr=c&sp=rwdl&sig=HhUyBe8tmz2AjcPAgc%2F1zJYL4V3WWzL%2Bccyg8d7nX0E%3D
+  InstallerSha256: D6435B60DCE00620298CCF7EE45C399979BFFA979C2348E4B0D9426D8D725663
+- InstallerLocale: zh-CN
+  Architecture: x64
+  InstallerUrl: https://pcmanager.officeplus.cn/mvp/30101/25250/MSPCManagerOffline.exe?sv=2021-06-08&se=2023-06-25T07%3A02%3A50Z&sr=c&sp=rwdl&sig=HhUyBe8tmz2AjcPAgc%2F1zJYL4V3WWzL%2Bccyg8d7nX0E%3D
+  InstallerSha256: D6435B60DCE00620298CCF7EE45C399979BFFA979C2348E4B0D9426D8D725663
+ManifestType: installer
+ManifestVersion: 1.4.0
